@@ -6,6 +6,11 @@
     test-dir/expected/[testcase-name].exp to determine if the test was a
     success or not. In case of errors, a ERRS file is created containing a
     verbose diff result of all failed tests.
+
+    The tool also contains functionality to update the expected cases on prompt
+    if it is known that the diff results are correct.
+
+    @author: Rishi <ashutoshrishi92@gmail.com>
 *)
 
 (** Represent the results of running a diff test *)

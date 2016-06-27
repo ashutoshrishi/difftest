@@ -1,3 +1,6 @@
+(** Diff-based testing for compiler stdout.
+    @author: Rishi <ashutoshrishi92@gmail.com> *)
+
 open Filename
 
 (* Globals oh-no *)

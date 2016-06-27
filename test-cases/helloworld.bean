@@ -1,0 +1,5 @@
+typedef {x: int, y:int} vector
+
+proc main (val int a, val int b)
+     write "Hello, World!";
+end
